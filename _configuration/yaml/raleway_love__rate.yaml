@@ -1,0 +1,8 @@
+file_name: raleway_love__rate.conf
+comment: Rate
+gap_x: 550
+gap_y: 370
+update_interval: 10.0
+conky_text: |-
+  ${alignr}${offset -10}${voffset   0}${color2}${font Raleway:Thin:size=36}${execpi 10 python [python_full_path]raleway_love__rate.py USD/JPY}${font}
+  ${alignr}${offset -10}${voffset -90}${color2}${font Raleway:Thin:size=36}${execpi 10 python [python_full_path]raleway_love__rate.py EUR/JPY}${font}

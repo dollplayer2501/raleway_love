@@ -1,0 +1,12 @@
+file_name: raleway_love__cpu.conf
+comment: CPU
+gap_x: 0
+gap_y: -50
+update_interval: 2.0
+conky_text: |-
+  ${alignr}${offset  -10}${voffset  -30}${cpugraph cpu0 200,1800 [graph_color_from] [graph_color_to]}
+  ${alignr}${offset  -85}${voffset -230}${color1}${font Raleway:size=64}CPU${offset 75}MEM${font}
+  ${alignr}${offset -600}${voffset  -75}${color2}${font Raleway:size=48}${ibm_temps 0}c${offset 30}${ibm_fan}rpm${font}
+  ${alignr}${offset -565}${voffset  -60}${color2}${font Raleway:size=48}${mem}/${memmax}${font}
+  ${alignr}${offset  -60}${voffset -160}${color2}${font Raleway:size=96}${cpu cpu0}%${offset 50}${memperc}%${font}
+  ${alignr}${offset  -10}${voffset  -40}${color2}${font Raleway:size=64}${execi 10 command uptime -p | command cut -c 4-}${font}

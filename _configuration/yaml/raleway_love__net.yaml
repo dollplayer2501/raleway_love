@@ -1,0 +1,12 @@
+file_name: raleway_love__net.conf
+comment: Network
+gap_x: 0
+gap_y: 420
+update_interval: 2.0
+conky_text: |-
+  ${alignr}${offset  -20}${voffset  125}${upspeedgraph   enp0s31f6  100,500 [graph_color_from] [graph_color_to]}
+  ${alignr}${offset  -20}${voffset    4}${downspeedgraph enp0s31f6 -100,500 [graph_color_from] [graph_color_to]}
+  ${alignr}${offset -120}${voffset -200}${color2}${font Raleway:size=64}${upspeedf enp0s31f6}KiB${font}
+  ${alignr}${offset  -25}${voffset -100}${color1}${font Raleway:size=48}UP${font}
+  ${alignr}${offset -120}${voffset  -50}${color2}${font Raleway:size=64}${downspeedf enp0s31f6}KiB${font}
+  ${alignr}${offset  -15}${voffset -115}${color1}${font Raleway:size=48}DN${font}

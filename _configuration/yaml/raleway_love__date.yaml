@@ -1,0 +1,8 @@
+file_name: raleway_love__date.conf
+comment: Date
+gap_x: 0
+gap_y: 230
+update_interval: 5.0
+conky_text: |-
+  ${alignr}${offset -5}${voffset   0}${color3}${font Raleway:size=80}${time %A, %B %-d, %Y}${font}
+  ${alignr}${offset  0}${voffset -60}${color3}${font Raleway:size=176}${time %H:%M}${font}

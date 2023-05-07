@@ -1,0 +1,12 @@
+file_name: raleway_love__disk.conf
+comment: Disk
+gap_x: 520
+gap_y: 420
+update_interval: 2.0
+conky_text: |-
+  ${alignr}${offset  -10}${voffset  125}${diskiograph_write /dev/sda2  100,500 [graph_color_from] [graph_color_to]}
+  ${alignr}${offset  -10}${voffset    4}${diskiograph_read  /dev/sda2 -100,500 [graph_color_from] [graph_color_to]}
+  ${alignr}${offset -130}${voffset -200}${color2}${font Raleway:size=64}${diskio_write /dev/sda2}${font}
+  ${alignr}${offset  -15}${voffset -100}${color1}${font Raleway:size=48}WR${font}
+  ${alignr}${offset -130}${voffset  -50}${color2}${font Raleway:size=64}${diskio_read /dev/sda2}${font}
+  ${alignr}${offset  -35}${voffset -115}${color1}${font Raleway:size=48}RD${font}
