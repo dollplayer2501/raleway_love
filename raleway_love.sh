@@ -4,6 +4,8 @@
 # Start Raleway_love!
 #
 
+killall conky
+
 sleep  4 && conky -b -c ~/.config/conky/raleway_love/conky/raleway_love__cpu.conf &
 sleep  6 && conky -b -c ~/.config/conky/raleway_love/conky/raleway_love__net.conf &
 sleep  8 && conky -b -c ~/.config/conky/raleway_love/conky/raleway_love__disk.conf &

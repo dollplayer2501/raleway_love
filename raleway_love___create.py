@@ -9,11 +9,6 @@ import textwrap
 
 if __name__ == "__main__":
 
-
-#    print( os.getcwd()  )
- #   sys.exit()
-
-
     FILE__BASE_CONFIG = './_configuration/conf/raleway_love___base_config.conf'
     FILE__GRAPH_COLOR = './_configuration/json/raleway_love___graph_color.json'
     PATH__PARTS       = './_configuration/yaml/raleway_love__*.yaml'
