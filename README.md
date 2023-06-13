@@ -15,6 +15,8 @@ Because I have 2 reasons and/or purposeses.
 1. I use tiling window manager and the transparent window by picom.
 2. When I look at the display, I only need to know the current time though the transparent window.
 
+No one creates a theme like this, so I don't think there is a demand for it, but I use it normally.
+
 ## Requirements
 
 1. Raleway font
