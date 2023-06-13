@@ -29,6 +29,8 @@ This theme is assumed to be placed under `~/.config/conky/`, then start `./ralew
 
 ## For aggressive customization
 
+This theme does not use Lua, so setting absolute coordinates is very troublesome, so the configuration file is divided for each function.
+
 ### overview
 
 Instead of modifying `./conky/raleway_love__*.conf`, I **recommend** modifying the following files and generation `./conky/raleway_love__*.conf` by `./raleway_love___create.py`.
